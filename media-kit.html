@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Kit - Press Materials | Quantum Aikido</title>
+    <meta name="description" content="Press materials for Quantum Aikido by Richard Moon. Author bio, book descriptions, interview topics, photos, and press release for media coverage.">
+    <meta name="keywords" content="quantum aikido press kit, richard moon media, book press release, author interview, speaking topics">
+    <meta name="author" content="Richard Moon">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://quantumaikido.com/media-kit.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quantumaikido.com/media-kit.html">
+    <meta property="og:title" content="Media Kit - Press Materials | Quantum Aikido">
+    <meta property="og:description" content="Press materials for Quantum Aikido by Richard Moon. Everything you need for media coverage.">
+    <meta property="og:image" content="https://quantumaikido.com/BookHeadShot.png">
+    <meta property="og:site_name" content="Quantum Aikido">
+
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --secondary-bg: #1e293b;
+            --accent: #8b5cf6;
+            --accent-light: #a78bfa;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3 { font-weight: 300; letter-spacing: -0.02em; }
+        h1 { font-size: 2.5rem; line-height: 1.2; margin-bottom: 1rem; }
+        h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; color: var(--accent-light); }
+        h3 { font-size: 1.1rem; margin: 1.5rem 0 0.75rem; color: var(--text-primary); }
+        h4 { font-size: 0.95rem; margin: 1rem 0 0.5rem; color: var(--accent-light); text-transform: uppercase; letter-spacing: 0.05em; }
+        p { margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.95rem; }
+        a { color: var(--accent-light); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--accent); }
+        ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: var(--text-secondary); }
+        li { margin-bottom: 0.5rem; font-size: 0.95rem; }
+        em { color: var(--text-primary); }
+        strong { color: var(--text-primary); }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
+        header {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background-color: var(--primary-bg);
+            z-index: 100;
+        }
+
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.25rem; font-weight: 500; color: var(--text-primary); }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+        .nav-links a:hover { color: var(--accent-light); }
+
+        main { padding: 3rem 0; }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        .page-header .subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .content-section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .content-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .quick-facts {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .quick-facts p {
+            margin: 0.25rem 0;
+            font-size: 0.9rem;
+        }
+
+        .description-box {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border);
+        }
+
+        .description-box h4 {
+            margin-top: 0;
+        }
+
+        .description-box p {
+            margin-bottom: 0;
+        }
+
+        .bio-box {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 3px solid var(--accent);
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .topic-card {
+            background-color: var(--secondary-bg);
+            padding: 1.25rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .topic-card h4 {
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+        }
+
+        .topic-card ul {
+            margin: 0;
+            font-size: 0.85rem;
+        }
+
+        .questions-list {
+            counter-reset: question;
+        }
+
+        .questions-list li {
+            counter-increment: question;
+            list-style: none;
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .questions-list li::before {
+            content: counter(question) ".";
+            position: absolute;
+            left: 0;
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .format-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .format-card {
+            background-color: var(--secondary-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .format-card h4 {
+            margin-top: 0;
+            font-size: 0.9rem;
+        }
+
+        .format-card p {
+            font-size: 0.85rem;
+            margin-bottom: 0;
+        }
+
+        .press-release {
+            background-color: var(--secondary-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .press-release h4 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .press-release .headline {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .press-release .subheadline {
+            font-style: italic;
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .fact-sheet {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .fact-column {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .fact-column h4 {
+            margin-top: 0;
+        }
+
+        .fact-column ul {
+            margin-bottom: 0;
+        }
+
+        .download-section {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .download-section p {
+            margin-bottom: 1rem;
+        }
+
+        .contact-box {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        footer {
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        footer p { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--accent-light); }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .quick-facts, .topics-grid, .format-grid, .fact-sheet { grid-template-columns: 1fr; }
+            .nav-links { gap: 1rem; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">QUANTUM AIKIDO</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="book.html">The Book</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>press materials</h1>
+                <p class="subtitle">Everything you need to write about, interview, or feature this work.<br>All materials free to use. Attribution appreciated.</p>
+            </section>
+
+            <section class="content-section">
+                <h2>quick facts</h2>
+                <div class="quick-facts">
+                    <div>
+                        <p><strong>Author:</strong> Richard Moon</p>
+                        <p><strong>Title:</strong> 6th Dan Aikido Sensei, International Peace Negotiator, Executive Coach</p>
+                        <p><strong>Book:</strong> <em>Quantum Aikido: The Power of Harmony</em></p>
+                    </div>
+                    <div>
+                        <p><strong>Publisher:</strong> Inner Traditions / Park Street Press</p>
+                        <p><strong>Series:</strong> Sacred Planet Books</p>
+                        <p><strong>Release Date:</strong> January 6, 2026</p>
+                        <p><strong>Contact:</strong> <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>book description</h2>
+
+                <div class="description-box">
+                    <h4>Short (50 words)</h4>
+                    <p>What if conflict wasn't something to win or lose, but energy waiting to be transformed? Richard Moon bridges quantum physics with Aikido philosophy, showing how the principles governing subatomic particles govern human consciousness—offering a path to transform reaction into creative response.</p>
+                </div>
+
+                <div class="description-box">
+                    <h4>Medium (100 words)</h4>
+                    <p><em>Quantum Aikido: The Power of Harmony</em> reveals how the same principles governing subatomic particles govern human consciousness. Richard Moon, 6th Dan Aikido master and international peace negotiator, bridges ancient wisdom with modern physics—teaching readers to recognize conflict as energy to harmonize, not defeat. Drawing from his work in Cyprus peace negotiations and thirty years of practice, Moon introduces core concepts: WIGO (What Is Really Going On), the Quantum Pause, the Observer Effect, and standing on the floating bridge where opposites complete each other. This isn't generic wellness—it's intellectually rigorous consciousness transformation for practitioners ready for sophisticated work.</p>
+                </div>
+
+                <div class="description-box">
+                    <h4>Long (250 words)</h4>
+                    <p>In <em>Quantum Aikido: The Power of Harmony</em>, Richard Moon—6th Dan Aikido master, international peace negotiator, and executive coach—reveals a revolutionary understanding: the principles governing subatomic particles also govern human consciousness and conflict.</p>
+                    <p>Drawing from quantum mechanics concepts like wave-particle duality, superposition, and the observer effect, Moon shows how consciousness creates reality through attention and presence. When we shift our relationship with energy—from resistance to harmony—conflict transforms from something to win or lose into something to dance with.</p>
+                    <p>Moon brings thirty years of Aikido practice, real-world peace negotiation experience (including Cyprus conflict resolution), and decades of executive coaching into a comprehensive framework. Core concepts include WIGO (What Is Really Going On beneath surface appearances), the Quantum Pause (the space between stimulus and response where infinite possibility exists), and the Unified Field Experience (center and circle creating wholeness).</p>
+                    <p>This isn't another wellness book offering easy answers. Moon writes for advanced moving meditation practitioners and leaders who understand that consciousness transformation isn't comfortable—it's necessary.</p>
+                    <p>Published by Inner Traditions/Park Street Press in the Sacred Planet Books series, with foreword by Douglas Stone (Harvard Law School lecturer, co-author of <em>Difficult Conversations</em>), <em>Quantum Aikido</em> offers intellectually rigorous, practically applicable wisdom for transforming how we meet pressure, conflict, change, and the unknown.</p>
+                    <p>Standing on the floating bridge of heaven where 1+1=1, Moon invites readers to recognize: conflict isn't something to win or lose, but energy waiting to be transformed.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>author bio</h2>
+
+                <div class="bio-box">
+                    <h4>Short (50 words)</h4>
+                    <p>Richard Moon is a 6th Dan Aikido sensei, international peace negotiator, and executive coach. He studied with Robert Nadeau, direct student of Aikido founder Morihei Ueshiba. Moon has worked on conflict resolution in Cyprus and Bosnia, applying Aikido principles to real-world peacebuilding and organizational transformation.</p>
+                </div>
+
+                <div class="bio-box">
+                    <h4>Medium (100 words)</h4>
+                    <p>Richard Moon is a 6th Dan Aikido sensei, international peace negotiator, and executive coach specializing in consciousness transformation under pressure. He trained with Robert Nadeau Shihan, who studied directly with Aikido founder Morihei Ueshiba (O Sensei).</p>
+                    <p>Moon has worked in track two diplomacy, including Cyprus peace negotiations, applying quantum principles to conflict resolution. In the 1990s, he pioneered electronic coaching—delivering 60-120 second voicemail teachings to corporate executives, a format that presaged modern social media content.</p>
+                    <p>He bridges quantum mechanics, Aikido philosophy, and real-world application, teaching leaders and practitioners to transform reactivity into creative response.</p>
+                </div>
+
+                <div class="bio-box">
+                    <h4>Long (250 words)</h4>
+                    <p>Richard Moon is a 6th Dan Aikido sensei whose work bridges ancient martial wisdom with modern physics, real-world conflict resolution with consciousness transformation.</p>
+                    <p>He began training in Aikido under Robert Nadeau Shihan, one of the few Westerners to study directly with Morihei Ueshiba (O Sensei), founder of Aikido. O Sensei described Aikido not as a martial art but as "the realization of love"—a phrase that would come to define Moon's life work.</p>
+                    <p>In the 1990s, Moon worked in international peace negotiation, including track two diplomacy efforts in Cyprus bringing together Greek and Turkish Cypriot community leaders. These experiences revealed how Aikido principles—entering, blending, harmonizing with energy—applied powerfully in high-stakes human conflict beyond the training mat.</p>
+                    <p>During the same period, Moon pioneered electronic coaching for corporate executives, delivering thousands of 60-120 second voicemail teachings. This corpus of work, focused on presence under pressure and "What Is Really Going On" beneath surface appearances, perfectly anticipated modern short-form content consumption decades before YouTube Shorts or Instagram Reels existed.</p>
+                    <p>Moon's background includes executive coaching, mediation, organizational facilitation, and what he calls "Extraordinary Listening"—a methodology for transforming how people meet difficulty, pressure, and the unknown.</p>
+                    <p>His teaching integrates quantum mechanics concepts (wave-particle duality, observer effect, uncertainty, superposition) with Aikido practice (center, circle, blending, entering) and consciousness development.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>interview topics</h2>
+                <p>Richard Moon speaks on:</p>
+
+                <div class="topics-grid">
+                    <div class="topic-card">
+                        <h4>Quantum Consciousness</h4>
+                        <ul>
+                            <li>How quantum principles apply to human experience</li>
+                            <li>Observer effect in daily life</li>
+                            <li>Wave-particle duality in perception</li>
+                            <li>Superposition: holding multiple realities</li>
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <h4>Conflict Transformation</h4>
+                        <ul>
+                            <li>Recognizing conflict as energy, not enemy</li>
+                            <li>WIGO: What Is Really Going On</li>
+                            <li>The Quantum Pause</li>
+                            <li>Cyprus peace negotiations case study</li>
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <h4>Aikido & Presence</h4>
+                        <ul>
+                            <li>What O Sensei meant by "realization of love"</li>
+                            <li>Physical practice as consciousness development</li>
+                            <li>Entering and blending with energy</li>
+                            <li>Standing on the floating bridge of heaven</li>
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <h4>Leadership Under Pressure</h4>
+                        <ul>
+                            <li>Whole-brain response vs. reptilian reaction</li>
+                            <li>Thalamic Pause in high-stakes situations</li>
+                            <li>Executive coaching through Aikido lens</li>
+                            <li>Decision-making from center vs. chaos</li>
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <h4>Peace Negotiation</h4>
+                        <ul>
+                            <li>Track two diplomacy principles</li>
+                            <li>Creating space for dialogue across division</li>
+                            <li>Listening as peacebuilding tool</li>
+                            <li>Transforming intractable conflict</li>
+                        </ul>
+                    </div>
+                    <div class="topic-card">
+                        <h4>Philosophy & Physics</h4>
+                        <ul>
+                            <li>Integration of Eastern wisdom and Western science</li>
+                            <li>Why ancient teachings align with quantum mechanics</li>
+                            <li>Uncertainty as doorway to creativity</li>
+                            <li>Mystery vs. certainty in spiritual practice</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>sample interview questions</h2>
+
+                <h3>Opening Questions</h3>
+                <ol class="questions-list">
+                    <li>What does "the sword that cuts things together" mean?</li>
+                    <li>How did an Aikido master end up working on peace negotiations in Cyprus?</li>
+                    <li>Your book title suggests conflict is something other than we think. What is it really?</li>
+                </ol>
+
+                <h3>Conceptual Questions</h3>
+                <ol class="questions-list" start="4">
+                    <li>Explain WIGO—What Is Really Going On—in practical terms.</li>
+                    <li>What is the Quantum Pause and why does it matter?</li>
+                    <li>How does the observer effect from physics apply to human interaction?</li>
+                    <li>What does "standing on the floating bridge of heaven" mean in daily life?</li>
+                </ol>
+
+                <h3>Application Questions</h3>
+                <ol class="questions-list" start="8">
+                    <li>Someone's triggered in a difficult conversation. What do you tell them?</li>
+                    <li>How do these principles work under real pressure—in war zones, boardrooms, family conflicts?</li>
+                    <li>What's the difference between reaction and response?</li>
+                    <li>Give an example of transforming conflict energy in the Cyprus negotiations.</li>
+                </ol>
+
+                <h3>Practice Questions</h3>
+                <ol class="questions-list" start="12">
+                    <li>What's one thing someone could practice today?</li>
+                    <li>How do you train the Quantum Pause?</li>
+                    <li>Do people need Aikido training to use these principles?</li>
+                    <li>What's the relationship between physical practice and consciousness?</li>
+                </ol>
+
+                <h3>Personal Questions</h3>
+                <ol class="questions-list" start="16">
+                    <li>What moment showed you these principles actually work?</li>
+                    <li>What's your daily practice?</li>
+                    <li>Who were your most important teachers?</li>
+                    <li>What do you still not understand?</li>
+                </ol>
+            </section>
+
+            <section class="content-section">
+                <h2>speaking formats</h2>
+
+                <div class="format-grid">
+                    <div class="format-card">
+                        <h4>Keynote (45-60 minutes)</h4>
+                        <p>High-level overview. Theory and application. Q&A included. Good for conferences, retreats, large gatherings.</p>
+                    </div>
+                    <div class="format-card">
+                        <h4>Workshop (Half-day, 3-4 hours)</h4>
+                        <p>Deep dive into specific concepts. Interactive practices. Small group work. Ideal for corporate teams, leadership development.</p>
+                    </div>
+                    <div class="format-card">
+                        <h4>Intensive (Full day or weekend)</h4>
+                        <p>Comprehensive training. Multiple practices. Integration time. For serious practitioners, dojo partnerships.</p>
+                    </div>
+                    <div class="format-card">
+                        <h4>Podcast/Interview (30-90 minutes)</h4>
+                        <p>Conversational format. Flexible on topics. Can go deep or broad.</p>
+                    </div>
+                    <div class="format-card">
+                        <h4>Panel Discussion</h4>
+                        <p>Dialogue with other teachers/practitioners. Comparative perspectives.</p>
+                    </div>
+                    <div class="format-card">
+                        <h4>Demonstration + Talk</h4>
+                        <p>Physical Aikido demonstration followed by principle application talk. Very effective for new audiences.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>press release</h2>
+
+                <div class="press-release">
+                    <h4>FOR IMMEDIATE RELEASE</h4>
+                    <p class="headline">Quantum Aikido Reveals How Physics Principles Transform Human Conflict Into Creative Harmony</p>
+                    <p class="subheadline">6th Dan Aikido Master and Peace Negotiator Richard Moon Bridges Ancient Wisdom with Modern Science in New Book Releasing January 6, 2026</p>
+
+                    <p>What if conflict wasn't something to win or lose, but energy waiting to be transformed? This question drives Richard Moon's revolutionary new book, <em>Quantum Aikido: The Power of Harmony</em> (Inner Traditions/Park Street Press, January 6, 2026).</p>
+
+                    <p>Moon, a 6th Dan Aikido sensei and international peace negotiator who worked on Cyprus conflict resolution, reveals how the same principles governing subatomic particles govern human consciousness and conflict. Drawing from quantum mechanics—wave-particle duality, the observer effect, superposition—and Aikido philosophy, Moon offers a framework for transforming reactivity into creative response.</p>
+
+                    <p>The book introduces core concepts including WIGO (What Is Really Going On beneath surface appearances), the Quantum Pause (the space between stimulus and response where infinite possibility exists), and the Unified Field Experience (center and circle creating wholeness).</p>
+
+                    <p>"Aikido founder Morihei Ueshiba called his art 'the realization of love,'" Moon explains. "O Sensei taught that the sword of the Aiki spirit cuts things together rather than apart. That's the essence of this work—recognizing that conflict isn't an enemy to defeat but energy to harmonize."</p>
+
+                    <p>Moon trained with Robert Nadeau Shihan, one of few Westerners to study directly with O Sensei. In the 1990s, Moon worked in track two diplomacy, applying Aikido principles to real-world conflict between Greek and Turkish Cypriots.</p>
+
+                    <p><em>Quantum Aikido: The Power of Harmony</em> is published in the Sacred Planet Books series. Douglas Stone, Harvard Law School lecturer and co-author of <em>Difficult Conversations</em>, wrote the foreword.</p>
+
+                    <p style="text-align: center; margin-top: 2rem;">###</p>
+
+                    <p style="margin-top: 1.5rem;"><strong>Contact:</strong><br>
+                    Richard Moon<br>
+                    <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a></p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>fact sheet</h2>
+
+                <div class="fact-sheet">
+                    <div class="fact-column">
+                        <h4>Book Details</h4>
+                        <ul>
+                            <li><strong>Title:</strong> Quantum Aikido: The Power of Harmony</li>
+                            <li><strong>Author:</strong> Richard Moon</li>
+                            <li><strong>Publisher:</strong> Inner Traditions / Park Street Press</li>
+                            <li><strong>Series:</strong> Sacred Planet Books</li>
+                            <li><strong>Release Date:</strong> January 6, 2026</li>
+                            <li><strong>Format:</strong> Hardcover, Paperback, eBook</li>
+                            <li><strong>Pages:</strong> 207</li>
+                            <li><strong>ISBN:</strong> 9781644119785</li>
+                        </ul>
+                    </div>
+                    <div class="fact-column">
+                        <h4>Author Credentials</h4>
+                        <ul>
+                            <li>6th Dan Aikido Sensei</li>
+                            <li>Student of Robert Nadeau Shihan (O Sensei's direct student)</li>
+                            <li>International Peace Negotiator (Cyprus, Bosnia)</li>
+                            <li>Executive Coach & Mediator</li>
+                            <li>Pioneer of electronic coaching methodology (1990s)</li>
+                        </ul>
+                    </div>
+                    <div class="fact-column">
+                        <h4>Core Concepts</h4>
+                        <ul>
+                            <li>WIGO (What Is Really Going On)</li>
+                            <li>The Quantum Pause</li>
+                            <li>Observer Effect in human interaction</li>
+                            <li>Wave-Particle Duality in consciousness</li>
+                            <li>The Unified Field Experience</li>
+                            <li>Energy transformation vs. conflict resolution</li>
+                        </ul>
+                    </div>
+                    <div class="fact-column">
+                        <h4>Target Audience</h4>
+                        <ul>
+                            <li>Advanced moving meditation practitioners</li>
+                            <li>Leaders navigating complexity and pressure</li>
+                            <li>Conflict resolution professionals</li>
+                            <li>Consciousness development practitioners</li>
+                            <li>Readers seeking integration of East/West wisdom</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>downloads</h2>
+
+                <div class="download-section">
+                    <p>All materials available for download. Contact <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a> for:</p>
+                    <ul style="list-style: none; margin: 1rem 0;">
+                        <li>Press Release (PDF, Word)</li>
+                        <li>Author Bio (Short, Medium, Long versions)</li>
+                        <li>Book Description (50, 100, 250 word versions)</li>
+                        <li>High-Resolution Author Photos</li>
+                        <li>Book Cover Images</li>
+                        <li>Sample Interview Questions</li>
+                        <li>Fact Sheet</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>contact & booking</h2>
+
+                <div class="contact-box">
+                    <p><strong>General Inquiries:</strong> <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a></p>
+                    <p><strong>Speaking/Workshops:</strong> <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a> (Subject: "Speaking Inquiry")</p>
+                    <p><strong>Media:</strong> <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a> (Subject: "Media Request")</p>
+                    <p style="margin-top: 1.5rem;"><strong>Publisher:</strong><br>
+                    Inner Traditions / Park Street Press<br>
+                    One Park Street<br>
+                    Rochester, Vermont 05767<br>
+                    <a href="https://www.innertraditions.com" target="_blank" rel="noopener noreferrer">www.InnerTraditions.com</a></p>
+                    <p style="margin-top: 1rem;"><strong>Response Time:</strong> 3-5 business days for most inquiries. Faster for time-sensitive media requests.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Richard Moon. Published by Park Street Press.</p>
+            <p>
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

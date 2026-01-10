@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews & Testimonials | Quantum Aikido</title>
+    <meta name="description" content="What readers and practitioners say about Quantum Aikido by Richard Moon. Reviews from Douglas Stone, practitioners, and readers.">
+    <meta name="keywords" content="quantum aikido reviews, richard moon testimonials, book reviews, reader feedback">
+    <meta name="author" content="Richard Moon">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://quantumaikido.com/reviews.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quantumaikido.com/reviews.html">
+    <meta property="og:title" content="Reviews & Testimonials | Quantum Aikido">
+    <meta property="og:description" content="What readers and practitioners say about Quantum Aikido by Richard Moon.">
+    <meta property="og:image" content="https://quantumaikido.com/BookHeadShot.png">
+    <meta property="og:site_name" content="Quantum Aikido">
+
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --secondary-bg: #1e293b;
+            --accent: #8b5cf6;
+            --accent-light: #a78bfa;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        h1, h2, h3 { font-weight: 300; letter-spacing: -0.02em; }
+        h1 { font-size: 2.5rem; line-height: 1.2; margin-bottom: 1rem; }
+        h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; color: var(--accent-light); }
+        h3 { font-size: 1.1rem; margin: 1.5rem 0 0.75rem; color: var(--text-primary); }
+        p { margin-bottom: 1rem; color: var(--text-secondary); font-size: 1rem; }
+        a { color: var(--accent-light); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--accent); }
+        ul { margin-left: 1.5rem; margin-bottom: 1rem; color: var(--text-secondary); }
+        li { margin-bottom: 0.5rem; }
+        em { font-style: italic; }
+
+        .container { max-width: 800px; margin: 0 auto; padding: 0 2rem; }
+
+        header {
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background-color: var(--primary-bg);
+            z-index: 100;
+        }
+
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.25rem; font-weight: 500; color: var(--text-primary); }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+        .nav-links a:hover { color: var(--accent-light); }
+
+        main { padding: 3rem 0; }
+
+        .page-header {
+            text-align: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        .content-section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .content-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .featured-testimonial {
+            background-color: var(--secondary-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            margin: 2rem 0;
+        }
+
+        .featured-testimonial .quote {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+        }
+
+        .featured-testimonial .attribution {
+            color: var(--accent-light);
+            font-weight: 500;
+        }
+
+        .featured-testimonial .title {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+
+        .featured-testimonial .source {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .testimonial-card {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .testimonial-card .quote {
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        .testimonial-card .attribution {
+            color: var(--accent-light);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-card .title {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .placeholder-section {
+            background-color: var(--secondary-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px dashed var(--border);
+        }
+
+        .placeholder-section p {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .submit-section {
+            background-color: var(--secondary-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .submit-section h3 {
+            margin-top: 0;
+            color: var(--accent-light);
+        }
+
+        .reviewer-info {
+            background-color: var(--secondary-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        footer {
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        footer p { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--accent-light); }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .nav-links { gap: 1rem; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">QUANTUM AIKIDO</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="book.html">The Book</a></li>
+                    <li><a href="reviews.html" style="color: var(--accent-light);">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h1>what people say</h1>
+            </section>
+
+            <section class="content-section">
+                <h2>foreword writer</h2>
+
+                <div class="featured-testimonial">
+                    <p class="quote">"I remember clear as yesterday the first time I met Richard. It was the mid-1990s, and I was teaching conflict resolution at Harvard Law School. We were both part of the staff working on a weeklong mediation project in Cyprus. When he walked in around midnight, he was smiling and calm, and had a mischievous gleam in his eye. Sensing the room's energy, he made a remark along the lines of, 'If you look to the totality, what's wrong points to what's right. Envision what tomorrow would be if it were great.' Then with a laugh, he added, 'Of course, I could be wrong. Anything can happen.'</p>
+                    <p class="quote">My spirits lifted. Our new arrival was not just confident, he was also funny. He knew how to change the mood in a room with a single observation or question. Whatever surprises were in store for us over the next week, Richard, through the harmonious power of Aikido, would know what to say and do.</p>
+                    <p class="quote">Richard is not a wizard. He's a person like you and me. His power to move people beyond themselves is not based on some supernatural enlightenment but resides in his very humanness—his studious intelligence, his compassion, his insight. He sees the world differently from most people, and yet he is able to see each of us just as we want to be seen."</p>
+                    <p class="attribution">Douglas Stone</p>
+                    <p class="title">Lecturer, Harvard Law School (35 years)<br>Co-author, <em>Difficult Conversations: How to Discuss What Matters Most</em></p>
+                    <p class="source">From the Foreword to <em>Quantum Aikido: The Power of Harmony</em></p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>advance praise</h2>
+
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p class="quote">"I've known Richard Moon for over 40 years. His way of guiding sneaks up on you with the subtlety of breeze. 'Quantum Aikido' offers a poetic synthesis of his life's work. In it, he illuminates Aikido as learning to live in deeper participation with self-world."</p>
+                        <p class="attribution">Gary David, Ph.D.</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"In Quantum Aikido, Sensei Moon has captured light in a bottle! Simplicity itself, when facing challenges, Feel More. Just notice what's actually arising, directly experiencing the immediate, tingling presence of being itself - no further seeking necessary."</p>
+                        <p class="attribution">Christopher Thorsen</p>
+                        <p class="title">Radical Inquiry</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Nadeau's inspiring somatic, energetic, and spiritual teachings link our hearts, minds, and bodies to the lineage of direct transmission of the transformational art of Aikido that flowed from O'Sensei, to him, and on to all of us seeking wise paths to peace in these turbulent times."</p>
+                        <p class="attribution">Joel & Michelle Levey</p>
+                        <p class="title">Co-founders, Wisdom at Work</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"In an age where we are drowning in information on how to be happy and live healthier—yet suffering from dis-ease in both arenas—Richard Moon's experience-based wisdom offers a missing link. The answers have always been within us, and Quantum Aikido paves a path to reconnect with what the body already knows."</p>
+                        <p class="attribution">Elisabet Lahti, PhD</p>
+                        <p class="title">Author of <em>Gentle Power</em></p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"If you are interested in a transformative path involving a deep connection with self and others, an embodied spiritual practice, and unifying with a universal energy, I highly recommend Quantum Aikido."</p>
+                        <p class="attribution">Richard Strozzi-Heckler</p>
+                        <p class="title">7th Degree Black Belt Aikido Shihan</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Richard Moon has always liked delving into the energy aspects of life. This book, his latest endeavor, is useful and engaging."</p>
+                        <p class="attribution">Robert Nadeau</p>
+                        <p class="title">Direct student of O Sensei</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Richard is a committed teacher and investigator, daring to push the envelope attempting to discover deeper truths. The cutting edge of quantum physics and its role in our lives is a new and interesting frontier."</p>
+                        <p class="attribution">Peter Ralston</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Richard Moon Sensei is a leader who has contributed greatly to the world of Aikido for many years. I believe this book will be a page that opens a new door for those who will be practicing Aikido in the future."</p>
+                        <p class="attribution">Hiroshi Ikeda</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"Quantum Aikido is a brilliant overview of the power of blending the art of attention with the science of action. It is a must-read guide to learning how to dance in an emerging world where it is getting harder to hear the music."</p>
+                        <p class="attribution">Robert Lengel</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"The dynamic of human consciousness interacting with the Universe can be highly energized, meditative, inspiring, and even community building. Richard Moon shows how our individual spirit can connect with broader energies by replacing confrontation with a comfort born of acceptance and open curiosity. This is an astonishing and profoundly instructive book."</p>
+                        <p class="attribution">Peter Goodman</p>
+                        <p class="title">Publisher, Stone Bridge Press</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"In language that is both lyrical and clear, Richard shows us the underlying unity of creation. He does this through the perspectives of quantum physics, music and the Japanese martial art of Aikido. These multiple perspectives point to the underlying unity of ourselves with the universe at large."</p>
+                        <p class="attribution">Bob Noha</p>
+                        <p class="title">Aikido 7th dan, Chief Instructor Aikido of Petaluma</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="quote">"The lyricism of Moon Sensei's writing as he unifies complex ideas between the quantum realm and the dojo, coupled with memorable and illustrative concepts such as 1 + 1 = 1, transforms this manuscript from a mere book into an Experience, rife with musical and nature-related analogies that exalt all five of the human senses. Reading 'Quantum Aikido' is a multi-dimensional journey that I will certainly be revisiting for years to come."</p>
+                        <p class="attribution">Student of Bob Noha Sensei</p>
+                        <p class="title">Aikido of Petaluma</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>media reviews</h2>
+
+                <div class="placeholder-section">
+                    <p>Professional reviews will be added as they're published after the January 6, 2026 release.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>reader reviews</h2>
+
+                <div class="placeholder-section">
+                    <p>Reader reviews from Amazon, Goodreads, and other platforms will be added after publication.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>share your experience</h2>
+
+                <div class="submit-section">
+                    <h3>Read the book? Attended a workshop? Applied these principles?</h3>
+                    <p>We'd love to hear about it.</p>
+
+                    <p>Send testimonials to: <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a><br>
+                    Subject: "Testimonial"</p>
+
+                    <p>Include:</p>
+                    <ul>
+                        <li>Your name (or "Anonymous" if preferred)</li>
+                        <li>Location (optional)</li>
+                        <li>Professional role (optional)</li>
+                        <li>Your experience with the book/work</li>
+                        <li>Permission to use on website/marketing (yes/no)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>for media reviewers</h2>
+
+                <div class="reviewer-info">
+                    <p>Advance review copies available through Inner Traditions.</p>
+
+                    <p><strong>Contact:</strong><br>
+                    Inner Traditions / Park Street Press<br>
+                    One Park Street<br>
+                    Rochester, Vermont 05767</p>
+
+                    <p>Or request directly: <a href="mailto:sensei@quantumaikido.com">sensei@quantumaikido.com</a><br>
+                    Subject: "Review Copy Request"</p>
+
+                    <p>Include:</p>
+                    <ul>
+                        <li>Publication name</li>
+                        <li>Your role</li>
+                        <li>Anticipated review date</li>
+                        <li>Format needed (physical/PDF)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Richard Moon. Published by Park Street Press.</p>
+            <p>
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a> |
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
